@@ -29,7 +29,7 @@ ALLOWED_HOSTS = []
 # http://en.wikipedia.org/wiki/List_of_tz_zones_by_name
 # although not all choices may be available on all operating systems.
 # In a Windows environment this must be set to your system time zone.
-TIME_ZONE = 'America/Chicago'
+TIME_ZONE = 'Asia/Calcutta'
 
 # Language code for this installation. All choices can be found here:
 # http://www.i18nguy.com/unicode/language-identifiers.html
@@ -83,7 +83,7 @@ STATICFILES_FINDERS = (
 )
 
 # Make this unique, and don't share it with anybody.
-SECRET_KEY = 'mm-u41um^=2o3%u^^ndtdg-_n_$k*=k-8@i2$kb4g0fj5p@k4a'
+SECRET_KEY = '8#^uo^niznztp+w0fm85mg9x^yz8am@t*^fkyj16cw&((nq$j('
 
 # List of callables that know how to import templates from various sources.
 TEMPLATE_LOADERS = (
@@ -108,7 +108,6 @@ ROOT_URLCONF = 'TrackLeech.urls'
 WSGI_APPLICATION = 'TrackLeech.wsgi.application'
 
 TEMPLATE_DIRS = (
-    'website/templates',
     # Put strings here, like "/home/html/django_templates" or "C:/www/django/templates".
     # Always use forward slashes, even on Windows.
     # Don't forget to use absolute paths, not relative paths.
@@ -125,6 +124,7 @@ INSTALLED_APPS = (
     'django.contrib.admin',
     # Uncomment the next line to enable admin documentation:
     # 'django.contrib.admindocs',
+    'polls'
 )
 
 # A sample logging configuration. The only tangible logging
