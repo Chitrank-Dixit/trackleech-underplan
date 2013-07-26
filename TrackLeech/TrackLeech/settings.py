@@ -1,4 +1,4 @@
-# Django settings for TrackLeech project.
+# Django settings for TrackLeech startup project.
 
 DEBUG = True
 TEMPLATE_DEBUG = DEBUG
